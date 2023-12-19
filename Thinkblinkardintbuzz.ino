@@ -174,8 +174,11 @@ void loop() {
   // wait for a second
   int a[5]={2,31,4,5,6};
  int temp;
- for(int j=3;j==0;j--){
-  for(int i=0;i==j;i++){
+for(int ab=0;ab<5;ab++){
+    a[ab]=random(100);
+  }
+ for(int j=0;j<4;j++){
+  for(int i=0;i<5-j-1;i++){
     if(a[i]>a[i+1]){
       temp=a[i];
       a[i]=a[i+1];
