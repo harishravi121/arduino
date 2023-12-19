@@ -1,4 +1,4 @@
-//please select 2 leds such that it doesn't harm the usb. You have to program and use seperately.. Works on DELL not with chargers. Still need to figure out
+//please select 2 leds such that it doesn't harm the usb. You have to program and use seperately.. Works on DELL not with chargers. Still need to figure out I recommend single pin code in folder
 
 float t=2.0;
 float g=9.81;
