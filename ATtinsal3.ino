@@ -1,3 +1,5 @@
+// THis code thinks and blinks just like a supercomputer in a university. The blinking is for fun and thinking is cool
+
 float t=2.0;
 float g=9.81;
 float s=0.0;
