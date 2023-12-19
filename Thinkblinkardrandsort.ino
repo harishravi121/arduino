@@ -173,8 +173,9 @@ void loop() {
     a[ab]=random(100);
   }
  int temp;
- for(int j=3;j==0;j--){
-  for(int i=0;i==j;i++){
+
+ for(int j=0;j<4;j++){
+  for(int i=0;i<5-j-1;i++){
     if(a[i]>a[i+1]){
       temp=a[i];
       a[i]=a[i+1];
