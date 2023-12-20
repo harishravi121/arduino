@@ -1,5 +1,5 @@
 /*
-Atomic frequency stable 10 MHz can be connected to atmel reference for making it precise
+Atomic frequency stable 10 MHz can be connected to atmel reference for making it precise. It has to be made more elegant..
 */
 
 // the setup routine runs once when you press reset:
