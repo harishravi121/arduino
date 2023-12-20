@@ -1,5 +1,5 @@
 /*
-Atomic clock can be connected to this
+Atomic frequency stable 10 MHz can be connected to atmel reference for making it precise
 */
 
 // the setup routine runs once when you press reset:
