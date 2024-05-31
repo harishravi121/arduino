@@ -1,3 +1,5 @@
+// A randomly dancing motor which calculates(for show off) a few things too made by Harish
+
 #include <AFMotor.h>
 float t=2.0;
 float g=9.81;
