@@ -1,5 +1,7 @@
 /*
-Atomic frequency stable 10 MHz can be connected to atmel reference for making it precise. It has to be made more elegant..
+Atomic frequency stable 10 MHz can be connected to atmel reference for making it precise. It has to be made more elegant, needs bootloader programming once..
+Displays digital clock on computer screen with serial port. Can make LCD standalone with more code.
+Written by Harish
 */
 
 // the setup routine runs once when you press reset:
