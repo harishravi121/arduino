@@ -1,3 +1,6 @@
+//A buzzer chip connected to appropriate ports gives random beeping sounds. Its theraupeutic of intelligence of random nos.
+//Made by Harish
+
 float t=2.0;
 float g=9.81;
 float s=0.0;
