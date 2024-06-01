@@ -1,4 +1,4 @@
-// A randomly dancing motor( with a flower) ( forward backward and pause for random times )which calculates(for show off) a few things too made by Harish
+// A randomly dancing motor( with a flower and uses motor shield and a real motor) ( forward backward and pause for random times )which calculates(for show off) a few things too. Made by Harish
 
 #include <AFMotor.h>
 float t=2.0;
