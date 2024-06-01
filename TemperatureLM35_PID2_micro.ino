@@ -1,5 +1,5 @@
-# A pid control system to make refrigerators, ACs, ovens. We used it for preparing atomic physics samples in IISc. Shows response on screen in Labview if requried or directly works
-# Harish and team in 2016
+// A pid control system to make refrigerators, ACs, ovens. We used it for preparing atomic physics samples in IISc. Shows response on screen in Labview if requried or directly works
+// Harish and team in 2016
 
 #include <PID_v1.h>
 // initialize the library with the numbers of the interface pins from the above pin mappings
