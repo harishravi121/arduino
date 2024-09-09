@@ -1,5 +1,6 @@
 /*
-Code by Harish at home to blink 3 leds randomly and think something in back ground. Can make 10 leds too and in parellel around an artwork.
+Code by Harish at home to blink 3 leds randomly and think something in back ground. 
+Can make 10 leds too and in parellel around an artwork.
 
 */
 
