@@ -1,3 +1,8 @@
+/*
+Code by Harish at home to blink 3 leds randomly and think something in back ground. Can make 10 leds too and in parellel around an artwork.
+
+*/
+
 float t=2.0;
 float g=9.81;
 float s=0.0;
