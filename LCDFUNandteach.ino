@@ -1,6 +1,7 @@
 /*
 Code by Dr. Harish with LCD shield to display random sentances and revise math!
 Can be used in schools and homes! Costs 1000 re to make and can be sold @ 1250 with profit or hobbyists can make it..
+Can add school or home name in sentances which come up..
 */
 
 // include the library code:
