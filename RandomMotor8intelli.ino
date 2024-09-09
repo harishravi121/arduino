@@ -1,9 +1,10 @@
-// A randomly dancing motor( with a flower and uses motor shield and a real motor) ( forward backward and pause for random times )which calculates(for show off) a few things too. Made by Harish
-// Written in my startup Extremeadventureinc or Crazyminds or at home (Sai Sankalp).. There was a lot of pressure to shutdown and troubles from those we lived with and a few friends
-// Costs 1500 re or so to make 
+/* A randomly dancing motor( with a flower and uses motor shield and a real motor) ( forward backward and pause for random times )which calculates(for show off) a few things too. Made by Harish
+Written in my startup Extremeadventureinc or Crazyminds or at home (Sai Sankalp).. There was a lot of pressure to shutdown and troubles from those we lived with and a few friends
+ Costs 1500 re or so to make 
 
-//A 2 motor robot which dances around and avoids obstacles and trenches would be nice but I made that with friends in 2007 and won competition. I need a team to make products robots pets for 2000 re
-#include <AFMotor.h>
+A 2 motor robot which dances around and avoids obstacles and trenches would be nice but I made that with friends in 2007 and won competition. I need a team to make products robots pets for 2000 re
+*/
+ #include <AFMotor.h>
 float t=2.0;
 float g=9.81;
 float s=0.0;
