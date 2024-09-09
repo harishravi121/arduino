@@ -3,7 +3,6 @@ Code by Dr. Harish with LCD shield to display random sentances and revise math!
 Can be used in schools and homes! Costs 1000 re to make and can be sold @ 1250 with profit or hobbyists can make it..
 Can add school or home name in sentances which come up..
 */
-
 // include the library code:
 #include <LiquidCrystal.h>
 
@@ -40,7 +39,7 @@ void loop() {
   int b;
   int c;
   int d;
-   a=int(random(2));
+   a=int(random(3));
   if(a==0){//select sum
   b=int(random(620));
   c=int(random(120));
@@ -61,6 +60,20 @@ void loop() {
  
       lcd.print(b);
     lcd.print(" * ");
+    lcd.print(c);
+    
+      lcd.print(" = ");
+      lcd.print(d);
+      lcd.print("    ");
+    }
+
+  if(a==2){//select product
+  b=int(random(620));
+  c=int(random(140));
+  d=b-c;
+ 
+      lcd.print(b);
+    lcd.print(" - ");
     lcd.print(c);
     
       lcd.print(" = ");
