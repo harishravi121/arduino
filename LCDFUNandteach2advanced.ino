@@ -39,7 +39,9 @@ void loop() {
   int c;
   int d;
   float e;
-   a=int(random(5));
+  float f;
+  float g;
+   a=random(5);
   if(a==0){//select sum
   b=int(random(620));
   c=int(random(120));
@@ -82,22 +84,22 @@ void loop() {
     }
 
   if(a==3){//select sum
-  b=int(random(10));
-  c=int(random(5));
-  d=pow(b,c);
+  f=float(random(10));
+  g=float(random(5));
+  e=pow(f,g);
  
-      lcd.print(b);
+      lcd.print(round(f));
     lcd.print(" ^ ");
-    lcd.print(c);
+    lcd.print(round(g));
     
       lcd.print(" = ");
-      lcd.print(d);
+      lcd.print(round(e));
       lcd.print("    ");
     }
 
   if(a==4){//select sum
-  float f=float(random(100)+1.0);
-  float g=float(random(20)+1.0);
+  f=float(random(100)+1.0);
+  g=float(random(20)+1.0);
   e=round(f/g*100.0)/100.0;
  
       lcd.print(int(f));
