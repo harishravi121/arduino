@@ -42,7 +42,7 @@ void loop() {
   int d;
    a=int(random(2));
   if(a==0){//select sum
-  b=int(random(120));
+  b=int(random(620));
   c=int(random(120));
   d=b+c;
  
@@ -55,8 +55,8 @@ void loop() {
       lcd.print("    ");
     }
   if(a==1){//select product
-  b=int(random(20));
-  c=int(random(20));
+  b=int(random(40));
+  c=int(random(40));
   d=b*c;
  
       lcd.print(b);
