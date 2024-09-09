@@ -1,5 +1,5 @@
 /*
-Code by Dr. Harish with LCD shield to display random sentances and revise math!
+Code by Dr. Harish with LCD shield to display random sentances and revise math! Can be used in schools and homes!
 */
 
 // include the library code:
