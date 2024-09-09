@@ -2,6 +2,8 @@
 Code by Dr. Harish with LCD shield to display random sentances and revise math!
 Can be used in schools and homes! Costs 1000 re to make and can be sold @ 1250 with profit or hobbyists can make it..
 Can add school or home name in sentances which come up..
+
+Auto problems display in scientific calculators based on a button like this code would be a great sale including integrands exponents etc.
 */
 // include the library code:
 #include <LiquidCrystal.h>
