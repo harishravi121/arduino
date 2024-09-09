@@ -5,7 +5,7 @@ When there are 10 LEDs blinking randomly at selection and time of blink and colo
 
 LCD fun and teach might be most fun!
 
-Auto problems display in scientific calculators based on a button like LCDFunandteach would be a great sale including integrands exponents etc.
+Auto problems display in scientific calculators or brick game consoles based on a button like LCDFunandteach would be a great sale including integrands exponents etc.
 
 https://www.youtube.com/shorts/bqHzd04WzZw
 
