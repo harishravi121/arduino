@@ -1,5 +1,5 @@
 /*
-Code by Dr. Harish with LCD shield on arduino for math and recreation which can be used in calculators on brick games.
+Code by Dr. Harish with LCD shield on arduino for math and recreation which can be used in calculators on brick games. Best LCD code so far.
 */
 
 // include the library code:
