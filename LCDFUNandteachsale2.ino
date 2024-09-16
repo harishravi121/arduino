@@ -1,5 +1,6 @@
 /*
 Code by Dr. Harish with LCD shield on arduino for math and recreation which can be used in calculators on brick games. Best LCD code so far.
+It also has a delay between question and answer etc. A lottery of scrolling test with 1/50 probability.
 */
 
 // include the library code:
