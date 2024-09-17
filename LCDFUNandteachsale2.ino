@@ -2,7 +2,10 @@
 Code by Dr. Harish with LCD shield on arduino for math and recreation which can be used in calculators on brick games. Best LCD code so far.
 It also has a delay between question and answer etc. A lottery of scrolling test with 1/50 probability.
 */
-
+/*
+Code by Dr. Harish with LCD shield on arduino for math and recreation which can be used in calculators on brick games.
+*/
+#include <EEPROM.h>
 // include the library code:
 #include <LiquidCrystal.h>
 #include <math.h>
@@ -16,8 +19,13 @@ char text2[]="Success 90%perspiration &10%inspiration";
 void setup() {
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);
+  int ep=EEPROM.read(0);
+  randomSeed(analogRead(A0)+ep);
+  EEPROM.write(0,random(200)); //TO start different each time its switched on.
   // Print a message to the LCD.
-  randomSeed(analogRead(0));
+  
+  
+
 }
 
 void loop() {
@@ -78,7 +86,7 @@ void loop() {
     
       lcd.print(" = ");
 
-      delay(5000);
+      delay(5000+random(2500));
       lcd.print(d);
       lcd.print("    ");
     }
@@ -92,7 +100,7 @@ void loop() {
     lcd.print(c);
     
       lcd.print(" = ");
-      delay(5000);
+      delay(5000+random(2500));
       lcd.print(d);
       lcd.print("        ");
     }
@@ -107,7 +115,7 @@ void loop() {
     lcd.print(c);
     
       lcd.print(" = ");
-      delay(5000);
+      delay(5000+random(2500));
       lcd.print(d);
     
       lcd.print("    ");
@@ -123,7 +131,7 @@ void loop() {
     lcd.print(round(g));
     
       lcd.print(" = ");
-      delay(5000);
+      delay(5000+random(2500));
       lcd.print(round(e));
       lcd.print("      ");
     }
@@ -138,7 +146,7 @@ void loop() {
     lcd.print(int(g));
     
       lcd.print(" = ");
-      delay(5000);
+      delay(5000+random(2500));
       lcd.print(e);
       lcd.print("    ");
     }
@@ -156,7 +164,7 @@ void loop() {
     lcd.print(h);
     
       lcd.print("=");
-      delay(5000);
+      delay(5000+random(2500));
       lcd.print(d);
       lcd.print("      ");
     }
@@ -206,6 +214,6 @@ void loop() {
     }
   }
     
-  delay(4600+random(4000));
+  delay(3600+random(4000));
   lcd.clear();
 }
