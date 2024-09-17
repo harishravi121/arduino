@@ -21,7 +21,7 @@ void setup() {
   lcd.begin(16, 2);
   int ep=EEPROM.read(0);
   randomSeed(analogRead(A0)+ep);
-  EEPROM.write(0,random(200)); //TO start different each time its switched on.
+  EEPROM.write(0,random(200)); //TO start different each time its switched on analog doesnt change much unless theres a resistor chain.
   // Print a message to the LCD.
   
   
