@@ -3,7 +3,7 @@ Arduino codes for random motor and random blinking for products which can be por
 
 When there are 10 LEDs blinking randomly at selection and time of blink and color its very grand and rich. On off can be done by animals but random nos generation is advanced human.
 
-LCD fun and teach might be most fun!
+LCD fun and teach might be most fun! Initial LCD codes didn't have delay but later ones have delay to answer.
 
 Auto problems display in scientific calculators or brick game consoles based on a button like LCDFunandteach would be a great sale including integrands exponents etc.
 
