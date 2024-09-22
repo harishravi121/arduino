@@ -1,5 +1,6 @@
 /*
-Code by Dr. Harish with LCD shield on arduino for math and recreation which can be used in calculators on brick games. Can add forex also!
+Buy LCD Shield for 350 re and arduino uno for 500 re on Amazon and plug in. Burn this code connect to cheap charger/pc and enjoy
+Code by Dr. Harish with LCD shield on arduino for math and recreation which can be used in calculators on brick games. Can add forex also! LEDS can also be made to randomly blink like Induinosup4 but needs soldering
 */
 #include <EEPROM.h>
 // include the library code:
