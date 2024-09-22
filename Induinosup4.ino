@@ -1,5 +1,5 @@
 /*
-Code by Harish at home to blink 3 leds randomly and think something in back ground. 
+Code by Harish at home to blink 3 leds randomly by just pushing 2 leds into pin 11 and 12 with 220 ohm resistor to ground while 13 has a soldered LED and think something in back ground. 
 Can make 10 leds too and in parellel around an artwork.
 
 */
