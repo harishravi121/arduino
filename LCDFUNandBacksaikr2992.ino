@@ -1,5 +1,5 @@
 /*
-Code by Dr. Harish with LCD shield on arduino for math and recreation which can be used in calculators on brick games.
+Code by Dr. Harish with LCD shield on arduino for math and recreation which can be used in calculators on brick games. Can add forex also!
 */
 #include <EEPROM.h>
 // include the library code:
@@ -14,11 +14,7 @@ char texttemp[50];
 char text2[]="Success 90%perspiration &10%inspiration";
 void setup() {
   // set up the LCD's number of columns and rows:
-  lcd.begin(16, 2);
-  int ep=EEPROM.read(0);
-  randomSeed(analogRead(A0)+ep);
-  EEPROM.write(0,random(200));
-  // Print a message to the LCD.
+  lcd.begin(16, 2); 
   
   
 
