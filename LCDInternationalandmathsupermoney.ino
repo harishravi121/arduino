@@ -1,5 +1,5 @@
 /*
-Code by Dr. Harish with LCD shield on arduino for math and recreation which can be used in calculators on brick games.
+Code by Dr. Harish with LCD shield on arduino for math and recreation which can be used in calculators on brick games. THis is like demo feature in keyboard pianos by casio or song in it.
 */
 #include <EEPROM.h>
 // include the library code:
