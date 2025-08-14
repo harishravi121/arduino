@@ -12,3 +12,5 @@ https://www.youtube.com/shorts/bqHzd04WzZw
 I made a mistake by not mailing to a few profs and friends other than team the AVR obstacle and trech avoider pet/rover code with 2 motors and 2 look front and 2 look down sensors with interrupts in 2007. A rover has to use a 4x4 for sandy terrain as torque from back wheel to front wheel is too high to provide before slipping due to low friction.
 
 I also forgot to email the c code for image processing based sorter to friends and my project profs after competition.( I don't have that code now thus and I could have got some brownie points it was a visial studio code directly on pc and not on AVR just saying).
+
+Roulette is best psycological relaxation game..
